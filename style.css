@@ -1,0 +1,33 @@
+.hero-section {
+  padding: 0 10em 0 10em;
+}
+
+.header {
+  background-color: #303f53;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 1em;
+}
+
+.footer {
+  background-color: blue;
+}
+
+.hero-section {
+  background-color: #1f2937;
+}
+
+h1,
+h2,
+p,
+a {
+  color: #ffffff;
+}
+
+.hero-paragraph {
+  color: #e5e7eb;
+}

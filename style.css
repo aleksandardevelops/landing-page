@@ -1,11 +1,13 @@
-.hero-section {
+.hero-section,
+.cta-container {
   padding: 0 10em 0 10em;
 }
 
 .header {
-  background-color: #303f53;
   display: flex;
   justify-content: space-between;
+  padding: 1em 0;
+  font-size: 1.2em;
 }
 
 .header-links {
@@ -14,11 +16,12 @@
 }
 
 .footer {
-  background-color: blue;
+  background-color: #27285c;
+  padding: 3em;
 }
 
 .hero-section {
-  background-color: #1f2937;
+  background-color: hsl(180, 32%, 11%);
 }
 
 h1,
@@ -30,4 +33,33 @@ a {
 
 .hero-paragraph {
   color: #e5e7eb;
+}
+
+.cta-container {
+  background-color: hsl(180, 50%, 34%);
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  max-width: 25em; /* Limit the maximum width */
+  height: auto;
+  border: 1em solid red;
+}
+
+.hero-content {
+  padding: 5em 0em;
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper img {
+  max-width: 3.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

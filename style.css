@@ -1,3 +1,7 @@
+body {
+  font-family: 'Shippori Mincho B1', serif;
+}
+
 .hero-section,
 .cta-container {
   padding: 0 20% 0 20%;
@@ -34,6 +38,19 @@ p,
 a {
   color: #ffffff;
 }
+h1,
+h2 {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 2.5em;
+  line-height: 1.1em;
+}
+
+button,
+p {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
 
 .hero-paragraph {
   color: #e5e7eb;
@@ -44,7 +61,7 @@ a {
 }
 
 .hero-image-wrapper {
-  flex: 1 0 0;
+  flex: 2 0 0;
   max-width: 500px;
 }
 
@@ -118,6 +135,8 @@ a {
 
 .card-subtext {
   color: black;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 .citation,
@@ -173,10 +192,16 @@ h3 {
 .cta-button {
   background-color: whitesmoke;
   align-self: center;
-  padding: 1em 3em;
+  padding: 0.7em 2em;
   border-radius: 30px;
   border-width: 0px;
   box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  text-wrap: nowrap;
+}
+
+.hero-button {
+  margin-top: 3em;
 }
 
 .footer {
